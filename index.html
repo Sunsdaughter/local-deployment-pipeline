@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Deployment Pipeline</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef4f8;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 650px;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1f4e79;
+        }
+
+        .success {
+            color: #228b22;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .pipeline {
+            margin-top: 25px;
+            padding: 18px;
+            background: #f5f7fa;
+            border-radius: 8px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Local Automated Deployment Pipeline</h1>
+
+        <p class="success">Deployment Successful!</p>
+
+        <p>
+            This application was built and deployed using GitHub,
+            Jenkins, Terraform, and Docker.
+        </p>
+
+        <div class="pipeline">
+            GitHub → Jenkins → Docker Build → Terraform Apply → Docker Container
+        </div>
+
+        <p><strong>Created by France Guillou</strong></p>
+    </div>
+</body>
+</html>
